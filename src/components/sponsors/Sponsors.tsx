@@ -3,12 +3,12 @@ import Arcelor from "../../../public/ArcelorMittal.png";
 import Balsamiq from "../../../public/balsamiq-logo.png";
 import FDM from "../../../public/FDM.svg";
 import Fireball from "../../../public/fireball_eng.png";
-import MacMatSci from "../../../public/mcm-matsci_left-rev_png.png";
 import Verbwire from "../../../public/Verbwire.svg";
 import Stickeryou from "../../../public/SY_Logo.png";
 import Siemens from "../../../public/Siemens.svg";
 import DigitalOcean from "../../../public/digitalocean-logo-vector-1.png";
 import Wolfram from "../../../public/WolframHackathonLogo2023-1.png";
+import MacEngFull from "../../../public/mcm-eng_right-rev_png.png";
 
 const Sponsors = () => {
   return (
@@ -22,7 +22,7 @@ const Sponsors = () => {
         </div>
       </div>
       <div className="w-full relative flex justify-center items-center lg:px-44 flex-wrap flex-col">
-        <div className="flex justify-evenly items-center lg:gap-32 py-8">
+        <div className="flex justify-evenly items-center lg:gap-32 pb-8">
           <a className="w-2/5" href="https://www.eng.mcmaster.ca/">
             <img
               src={Fireball}
@@ -30,8 +30,14 @@ const Sponsors = () => {
               alt="McMaster Fireball Logo"
             ></img>
           </a>
-          <a className="w-2/5" href="https://www.eng.mcmaster.ca/materials">
-            <img src={MacMatSci} alt="McMaster Material Science Logo"></img>
+          <a
+            className="w-2/5"
+            href="https://www.eng.mcmaster.ca/about/history-and-achievements"
+          >
+            <img
+              src={MacEngFull}
+              alt="McMaster Faculty of Engineering Logo"
+            ></img>
           </a>
         </div>
       </div>
