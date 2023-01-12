@@ -15,7 +15,7 @@ const StatisticsPane = ({ id, statistics, activePaneState }: Props) => {
   const socialIcons = {
     Discord: {
       img: Discord,
-      url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      url: "https://discord.gg/KpEdu3J5",
     },
     Instagram: {
       img: Instagram,
