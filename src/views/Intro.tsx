@@ -24,14 +24,24 @@ const Intro = () => {
             <span className="text-shadow">IN-PERSON</span>
           </p>
         </div>
-        <div className="w-100 h-4/5 mx-auto">
+        <div className="flex flex-col gap-4">
           <a
             href="https://portal.deltahacks.com/"
-            className="text-white text-center text-xl md:text-3xl tracking-wider "
+            className="text-white text-center text-xl md:text-3xl tracking-wider md:w-[373px!important] md:h-[76px!important] w-[238px!important] h-[44px!important]"
           >
-            <span className="flex flex-col items-center  w-100 h-100 mt-10">
-              <span className="mBG px-12 py-2 md:px-20 md:py-5 mt-3 h-[auto!important] absolute z-50">
+            <span className="flex flex-col items-center mt-10 md:w-[373px!important] md:h-[76px!important] w-[238px!important] h-[44px!important]">
+              <span className="flex items-center justify-center mBG mt-3 absolute z-50 md:w-[373px!important] md:h-[76px!important] w-[238px!important] h-[44px!important]">
                 APPLY NOW
+              </span>
+            </span>
+          </a>
+          <a
+            href="https://portal.deltahacks.com/schedule"
+            className="text-white text-center text-xl md:text-3xl tracking-wider md:w-[373px!important] md:h-[76px!important] w-[238px!important] h-[44px!important]"
+          >
+            <span className="flex flex-col items-center mt-10 md:w-[373px!important] md:h-[76px!important] w-[238px!important] h-[44px!important]">
+              <span className="flex items-center justify-center mBG mt-3 absolute z-50 md:w-[373px!important] md:h-[76px!important] w-[238px!important] h-[44px!important]">
+                SCHEDULE
               </span>
             </span>
           </a>
